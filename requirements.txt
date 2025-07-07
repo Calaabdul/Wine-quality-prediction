@@ -1,13 +1,12 @@
-pandas
-notebooks
+pandas>=1.5.3
+# notebooks>=6.5.4
 numpy
 scikit-learn
 matplotlib
-Flask
-tqdm
-pyYAML
-python-box==6.0.2
+flask
+tqdm>=4.64.1
+pyyaml>=6.0
+python-box>=6.0.2
 ensure==1.0.2
-pickle
-types-PyYAML
-Flask-Cors
+types-PyYAML>=6.0.12
+flask-Cors>=3.0.10
