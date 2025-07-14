@@ -11,3 +11,15 @@ conda activate mlProject
 
 pip install -r requirements.txt
 
+
+
+### Workflow
+
+
+
+
+[Data Source](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
+
+
+
+

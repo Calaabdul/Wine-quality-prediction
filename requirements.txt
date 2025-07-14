@@ -6,8 +6,8 @@ matplotlib
 flask
 tqdm>=4.64.1
 pyyaml>=6.0
-python-box>=6.0.2
+python-box==6.0.2
 ensure==1.0.2
-types-PyYAML>=6.0.12
-flask-Cors>=3.0.10
+types-PyYAML
+flask-Cors
 -e .

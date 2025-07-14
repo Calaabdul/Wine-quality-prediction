@@ -25,8 +25,6 @@ def read_yaml(yaml_path: Path) -> ConfigBox:
 
 
 
-
-
 @ensure_annotations
 def create_directories(path_to_dir: list, verbose =True):
     for path in path_to_dir:
@@ -70,6 +68,6 @@ def load_object(path: Path) -> Any:
         return data
         
     except Exception as e:
-        logger.info('f"Error loading from: {path}')
+        logger.info(f"Error loading from: {path}")
 
    
